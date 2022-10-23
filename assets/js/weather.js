@@ -8,12 +8,10 @@ function onGeoOk(position) {
       .then(response => response.json())
       .then(data => {
         const weather = document.querySelector("#weather span:nth-child(1)");
-        const temp = document.querySelector("#weather span:nth-child(2)");
         const name = document.querySelector("#weather span:nth-child(3)");
         
         weather.innerText = data.name;
-        temp.innerText = `${Math.trunc(data.main.temp)}°C`;
-        name.innerText = data.weather[0].main;
+        name.innerText = `Today is ${data.weather[0].main}, Current Temp: ${Math.trunc(data.main.temp)}°C`;
     });
 }
 
