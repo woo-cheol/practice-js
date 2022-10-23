@@ -9,9 +9,17 @@
 </head>
 <body>
   <form id="login-form" class="hidden">
-    <input type="text" placeholder="What is your name?" />
+    <input type="text" placeholder="What is your name?" required/>
     <button>Login</button>
   </form>
+
+  <form id="todo-form">
+    <input type="text" placeholder="Write a To Do and Press Enter" required/> 
+  </form>
+
+  <ul id="todo-list">
+
+  </ul>
   <h2 id="clock"></h2>
 
   <h1 id="greeting" class="hidden"></h1>
@@ -20,12 +28,13 @@
     <span></span>
     <span></span>
   </div>
-  
+
 </body>
 </html>
 <script src="assets/js/greetings.js"></script>
 <script src="assets/js/clock.js"></script>
 <script src="assets/js/quotes.js"></script>
 <script src="assets/js/background.js"></script>
+<script src="assets/js/todo.js"></script>
 
 
