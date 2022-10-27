@@ -63,7 +63,7 @@ li {
     height: 200px;
     margin-top: 15px;
     text-align: center;
-    overflow: scroll;
+    overflow: auto;
 
 }
 
@@ -78,6 +78,8 @@ li {
     z-index: -1;
     opacity:80%;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     }
 
 .clock-position {
@@ -164,6 +166,8 @@ ul{
         z-index: -1;
         opacity:80%;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         }
   }
   @media (min-width: 768px) {
@@ -201,6 +205,8 @@ ul{
         z-index: -1;
         opacity:80%;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         }
   }
   @media (min-width: 992px) {
@@ -243,6 +249,8 @@ ul{
         z-index: -1;
         opacity:80%;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         }
   }
   @media (min-width: 1200px) {
@@ -284,6 +292,8 @@ ul{
         z-index: -1;
         opacity:80%;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         }
   }
   @media (min-width: 1400px) {
@@ -325,5 +335,7 @@ ul{
         z-index: -1;
         opacity:80%;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         }
   }
